@@ -9,16 +9,13 @@
 <script type="text/javascript">
     //Define the function
     function addNumbers(num1,num2) {
-        if (isNaN(num1)) {
-            alert(num1+" is not a number");
-        } else if (isNaN(num2)) {
-            alert(num2 + " is not a number");
-        } else {
-            alert(num1+num2);
-        }
+        var result=num1+num2;
+        return result;
     }
     //Call the function
-    addNumbers(49,2)
+    var myResult=addNumbers(24,2);
+    alert(myResult);
+
 </script>
 </body>
 </html>
